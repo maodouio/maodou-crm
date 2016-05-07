@@ -23,4 +23,6 @@ insecure                # Allow all DB writes from clients (for prototyping)
 accounts-password
 
 useraccounts:bootstrap  # atForm is in this package
+
+alanning:roles
 twbs:bootstrap
