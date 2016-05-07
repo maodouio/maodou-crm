@@ -9,19 +9,24 @@
   {{> info}}
  -->
 
-   {{> welcome}}
+   {{> login}}
 
 </body>
 
-<template name="welcome">
+<template name="login">
   
   {{#if currentUser}}
     <h2>你已成功登陆系统</h2>
+    {{#with currentUser}}
+      <p>{{emails.[0].address}}</p>
+      <button>Log out</button> 
+    {{/with}}
   {{else}}
     <h2>请登陆</h2>
   {{/if}}
 
-  {{> loginButtons}}
+  <!-- {{> loginButtons}} -->
+  {{> atForm}}
 
 </template>
 
