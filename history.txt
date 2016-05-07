@@ -1,0 +1,83 @@
+  501  meteor --version
+  502  cd ..
+  503  ls
+  504  mv welcome/ users-boilerplate
+  505  ls
+  506  cd users-boilerplate/
+  507  ls
+  508  cat .meteor/
+  509  ls .meteor/
+  510  ls
+  511  git init
+  512  ls -a
+  513  cat .git/config 
+  514  git remote add origin https://github.com/maodouio/users-boilerplate.git
+  515  cat .git/config 
+  516  git status
+  517  git add .meteor/packages 
+  518  git add .meteor/release 
+  519  git add client/
+  520  git add server/
+  521  git add package.json 
+  522  git add .git
+  523  git add .gitignore 
+  524  git status
+  525  git add .meteor/platforms 
+  526  git commit -a -m "First commit of meteor welcome project"
+  527  git push
+  528  git push -u origin master
+  529  meteor --version
+  530  git stauts
+  531  git status
+  532  tree
+  533  tree -a
+  534  tree 
+  535  tree .meteor/
+  536  subl ./
+  537  meteor add accounts-ui
+  538  meteor add accounts-password
+  539  git status
+  540  git commit -am "Add loginButtons"
+  541  git push
+  542  meteor add useraccounts:core
+  543  meteor add useraccounts:bootstrap
+  544  meteor add twbs:bootstrap
+  545  git status
+  546  git diff
+  547  git diff
+  548  git status
+  549  git commit -am "Change loginButtons to atForm"
+  550  git push
+  551  meteor add alanning:roles
+  552  git diff
+  553  meteor reset
+  554  meteor reset
+  555  meteor add twbs:bootstrap
+  556* meteor add 
+  557  meteor status
+  558  git status
+  559  git diff
+  560  git diff
+  561  git log
+  562  git commit -am "Add roles of 'admin'/'user'"
+  563  git push
+  564  meteor add iron:router
+  565  git status
+  566  git add lib/
+  567  git add client/users.html 
+  568  git status
+  569  git commit -am "Add /users page with all users list"
+  570  git push
+  571  git status
+  572  git add server/publish.js 
+  573  git commit -am "Remove autopublish and add pub/sub of users"
+  574  git push
+  575  git diff
+  576  git diff
+  577  git status
+  578  git add client/users.
+  579  git add client/users.js 
+  580  git add server/method.js 
+  581  git commit -am "Add upgradeToAdmin and downgradeToUser functions"
+  582  git push
+  583  histroy
