@@ -4,10 +4,26 @@
 
 <body>
   <h1>Welcome to Meteor!</h1>
-
+<!-- 
   {{> hello}}
   {{> info}}
+ -->
+
+   {{> welcome}}
+
 </body>
+
+<template name="welcome">
+  
+  {{#if currentUser}}
+    <h2>你已成功登陆系统</h2>
+  {{else}}
+    <h2>请登陆</h2>
+  {{/if}}
+
+  {{> loginButtons}}
+
+</template>
 
 <template name="hello">
   <button>Click Me</button>
