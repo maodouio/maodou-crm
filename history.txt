@@ -81,3 +81,24 @@
   581  git commit -am "Add upgradeToAdmin and downgradeToUser functions"
   582  git push
   583  histroy
+  590  wc -l
+  591  wc 
+  592  wc *
+  593  find . -name *.js
+  594  find client/ -name *.js
+  595  find client/ server/ -name *.js
+  596  find client/ server/ lib/ -name *.js
+  597  find client/ server/ lib/ -name *.js *.html
+  598  find client/ server/ lib/ -name *.js 
+  599  find client/ server/ lib/ -name *.js -exec cat {} \;
+  600  find client/ server/ lib/ -name *.js -exec cat {} \;
+  601  find client/ server/ lib/ -name *.js -exec cat {} \; | wc -l
+  602  find client/ server/ lib/ -name *.html -exec cat {} \; | wc -l
+  603  find client/ server/ lib/ -name *.html -exec cat {} \; > all.html
+  604  find client/ server/ lib/ -name *.js -exec cat {} \; > all.js
+  605  wc all.*
+  606  wc all.* 0l
+  607  wc all.* 
+  608  vi all.js 
+  609  vi all.html 
+  610  histroy
