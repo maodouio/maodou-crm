@@ -1,0 +1,16 @@
+<template name="users">
+
+  {{#each users}}
+    <p>Name: {{username}}</p>
+    <p>Roles: 
+    {{#each roles}}
+      {{this}}
+    {{/each}}
+    </p>
+
+    <hr>
+  {{else}}
+      暂无用户
+  {{/each}}
+
+</template>
