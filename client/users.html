@@ -8,6 +8,14 @@
     {{/each}}
     </p>
 
+    {{#if isInRole 'admin'}}
+      {{#if isAdmin}}
+        <span>已是管理员</span>
+        <button id="downgrade">降级为普通用户</button>
+      {{else}}
+        <button id="upgrade">提升为管理员</button>
+      {{/if}}
+    {{/if}}
     <hr>
   {{else}}
       暂无用户
