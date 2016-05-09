@@ -26,7 +26,7 @@ Template.users.helpers({
 });
 
 Template.users.events({
-  'click #upgradeToAdmin'(event, instance) {
+  'click .upgradeToAdmin'(event, instance) {
     console.log('Upgrade to admin');
     console.log(event);
     console.log(instance);
@@ -38,7 +38,7 @@ Template.users.events({
     });
   },
 
-  'click #upgradeToMember'(event, instance) {
+  'click .upgradeToMember'(event, instance) {
     console.log('Upgrade to member');
     console.log(event);
     console.log(instance);

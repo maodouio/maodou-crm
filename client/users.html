@@ -10,18 +10,24 @@
       {{#if isAdmin}}
         <span>已是管理员</span>
         <button class="downgrade-to-user">降级为普通用户</button>
-      {{/if}}
+        <button class="upgradeToMember">设置为会员</button>
+      {{else}}
       {{#if isMember}}
         <span>已是会员</span>
         <button class="downgrade-to-user">降为普通用户</button>
-      {{/if}}
+        <button class="upgradeToAdmin">提升为管理员</button>
+      {{else}}
       {{#if isUser}}
-        <button id="upgradeToAdmin">提升为管理员</button>
-        <button id="upgradeToMember">提升为会员</button>
-      {{/if}}
-      <hr>
-    {{else}}
+        <button class="upgradeToAdmin">提升为管理员</button>
+        <button class="upgradeToMember">提升为会员</button>
+        <hr>
+      {{else}}
         暂无用户
+      {{/if}}
+      {{/if}}
+    {{/if}}
+
+
     {{/each}}
   {{/if}}
 </template>
