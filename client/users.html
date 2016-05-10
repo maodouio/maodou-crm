@@ -1,24 +1,33 @@
 <template name="users">
-
-  {{#each users}}
-    <p>Name: {{username}}</p>
-    <p>Roles: 
-    {{#each roles}}
-      {{this}}
-    {{/each}}
-    </p>
-
-    {{#if isInRole 'admin'}}
+  {{#if isInRole 'admin'}}
+    {{#each users}}
+      <p>Name: {{username}}</p>
+      <p>Roles:
+      {{#each roles}}
+        {{this}}
+      {{/each}}
+      </p>
       {{#if isAdmin}}
         <span>已是管理员</span>
-        <button id="downgrade">降级为普通用户</button>
+        <button class="downgrade-to-user">降级为普通用户</button>
+        <button class="upgradeToMember">设置为会员</button>
       {{else}}
-        <button id="upgrade">提升为管理员</button>
+      {{#if isMember}}
+        <span>已是会员</span>
+        <button class="downgrade-to-user">降为普通用户</button>
+        <button class="upgradeToAdmin">提升为管理员</button>
+      {{else}}
+      {{#if isUser}}
+        <button class="upgradeToAdmin">提升为管理员</button>
+        <button class="upgradeToMember">提升为会员</button>
+        <hr>
+      {{else}}
+        暂无用户
+      {{/if}}
       {{/if}}
     {{/if}}
-    <hr>
-  {{else}}
-      暂无用户
-  {{/each}}
 
+
+    {{/each}}
+  {{/if}}
 </template>
