@@ -12,13 +12,13 @@
   
 ## 预习资料
 
-### 0. 简介
+### 1. 简介
   * 通过一个中文的系列视频，从整个web框架演进的角度让你大致了解一下meteor的先进性以及相关原理，同时做了一个小程序
   [Kevin的Meteor介绍](http://www.maiziedu.com/lesson/3446/)
   *  Github排序，比较具有权威性，Meteor是一个划时代的架构
   [硅谷排名第1的Web框架](https://github.com/showcases/web-application-frameworks)
 
-### 1. 开发工具
+### 2. 开发工具
 
 **操作系统**
   * mac: 首选的操作系统，开发工具全
@@ -77,7 +77,7 @@
   - [50 Tips and Tricks for MongoDB Developers](https://marcell.memoryoftheworld.org/Kristina%20Chodorow/50%20Tips%20and%20Tricks%20for%20MongoDB%20Developers%20(1935)/50%20Tips%20and%20Tricks%20for%20MongoDB%20Developers%20-%20Kristina%20Chodorow.pdf) MongoDB设计技巧(有精力可学习)
 
 
-### 2. 入门学习
+### 3. 入门学习
 
 #### 第1步
 
@@ -93,7 +93,7 @@
   选看如下视频
   * [极客学院Meteor相关视频教程](http://search.jikexueyuan.com/course?q=meteor) 可结合Discover Meteor深入理解
 
-### 3. 开源项目
+### 4. 开源项目
 
   * 有精力可阅读源码
    - [Telescope](https://github.com/TelescopeJS/Telescope)
