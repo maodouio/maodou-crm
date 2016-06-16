@@ -27,3 +27,10 @@ useraccounts:bootstrap  # atForm is in this package
 alanning:roles
 twbs:bootstrap
 iron:router
+
+aldeed:autoform
+aldeed:collection2
+aldeed:simple-schema
+
+momentjs:moment
+

@@ -1,0 +1,31 @@
+<template name="header">
+  <!-- Static navbar
+  修改nvabar颜色 -->
+  <!-- <div class="navbar navbar-default navbar-static-top" role="navigation"> -->
+  <div class="navbar navbar-default navbar-static-top" role="navigation" style="background-color:{{getNavBgColor}};">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+        <a class="navbar-brand" href="{{pathFor 'frontpage'}}">Maodou-CRM</a>
+
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="{{active 'frontpage'}}"><a href="{{pathFor 'frontpage'}}">首页</a></li>
+<!--           <li class="{{active 'activitiesIndex'}}"><a href="{{pathFor 'activitiesIndex'}}">最新活动</a></li>
+          <li class="{{active 'activityNew'}}"><a href="{{pathFor 'activityNew'}}">新建活动</a></li> -->
+                    <li class="{{active 'customersIndex'}}"><a href="{{pathFor 'customersIndex'}}">客户</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="{{active 'about'}}"><a href="{{pathFor 'about'}}">关于我们</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+</template>

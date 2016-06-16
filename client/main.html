@@ -1,16 +1,18 @@
 <head>
-  <title>simple</title>
+  <title></title>
 </head>
 
 <body>
+<!--   <div class="container">
   <h1>Welcome to Meteor!</h1>
-<!-- 
+
   {{> hello}}
   {{> info}}
- -->
+
 
   {{> login}}
 
+  </div> -->
 </body>
 
 <template name="login">
@@ -20,6 +22,8 @@
     {{#with currentUser}}
       <p>{{emails.[0].address}}</p>
       <button>Log out</button> 
+      <hr>
+      <a href="{{pathFor 'customersIndex'}}">查看客户列表</a>
     {{/with}}
   {{else}}
     <h2>请登陆</h2>
