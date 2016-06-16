@@ -1,11 +1,24 @@
+### 环境搭建
 
-### 0. 简介
+#### 第1步 安装Meteor运行环境
+  **Meteor安装**
+    * Mac OS 或 Linux 系统下
+      - `$ curl https://install.meteor.com | sh`
+    * Windows 系统
+      - https://www.meteor.com/install
+#### 第2步 运行一个Meteor自带的leaderboard示例
+  * 运行成功后在群里截图反馈
+  
+  
+### 预习资料
+
+#### 0. 简介
   * 通过一个中文的系列视频，从整个web框架演进的角度让你大致了解一下meteor的先进性以及相关原理，同时做了一个小程序
   [Kevin的Meteor介绍](http://www.maiziedu.com/lesson/3446/)
   *  Github排序，比较具有权威性，Meteor是一个划时代的架构
   [硅谷排名第1的Web框架](https://github.com/showcases/web-application-frameworks)
 
-### 1. 开发工具
+#### 1. 开发工具
 
 **操作系统**
   * mac: 首选的操作系统，开发工具全
@@ -64,7 +77,7 @@
   - [50 Tips and Tricks for MongoDB Developers](https://marcell.memoryoftheworld.org/Kristina%20Chodorow/50%20Tips%20and%20Tricks%20for%20MongoDB%20Developers%20(1935)/50%20Tips%20and%20Tricks%20for%20MongoDB%20Developers%20-%20Kristina%20Chodorow.pdf) MongoDB设计技巧(有精力可学习)
 
 
-### 2. 入门学习
+#### 2. 入门学习
 
 #### 第1步
 
