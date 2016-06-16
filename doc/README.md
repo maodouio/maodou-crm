@@ -5,6 +5,7 @@
     - `$ curl https://install.meteor.com | sh`
   * Windows 系统
     - https://www.meteor.com/install
+    
 ### 2 运行一个Meteor自带的leaderboard示例
   * 运行成功后在群里截图反馈
   
