@@ -1,11 +1,12 @@
 ## 环境搭建
 
-### 第1步 安装Meteor运行环境
+###  1 安装Meteor运行环境
   * Mac OS 或 Linux 系统下
     - `$ curl https://install.meteor.com | sh`
   * Windows 系统
     - https://www.meteor.com/install
-### 第2步 运行一个Meteor自带的leaderboard示例
+    - 
+### 2 运行一个Meteor自带的leaderboard示例
     * 运行成功后在群里截图反馈
   
   
