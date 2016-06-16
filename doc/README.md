@@ -65,17 +65,17 @@
 
 ## 2. 入门学习
 
-  #### 第1步
+#### 第1步
 
   实操如下教程
   * [Discover Meteor中文版](http://zh.discovermeteor.com/)  目前最好的一本中文书**看到第7.5章即可**
 
-  #### 第2步
+#### 第2步
 
   实操如下教程
   * [官方教程](https://www.meteor.com/tutorials/blaze/creating-an-app)	入门阅读Blaze版，一步一步操作
 
-  #### 第三步
+#### 第3步
   选看如下视频
   * [极客学院Meteor相关视频教程](http://search.jikexueyuan.com/course?q=meteor) 可结合Discover Meteor深入理解
 
